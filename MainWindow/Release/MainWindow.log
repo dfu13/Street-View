@@ -1,0 +1,36 @@
+﻿Build started 8/26/2014 8:59:24 AM.
+     1>Project "C:\Users\David\Google Drive\Visual Studio\Street View\MainWindow\MainWindow.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Moc'ing mainwindow.h...
+         Uic'ing mainwindow.ui...
+         Moc'ing display.h...
+         Rcc'ing mainwindow.qrc...
+     1>RCC : warning : No resources in 'C:\Users\David\Google Drive\Visual Studio\Street View\MainWindow\mainwindow.qrc'.
+         
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\5.3.1\qtbase\include /I.\GeneratedFiles\Release /IC:\Qt\5.3.1\qtbase\include\QtCore /IC:\Qt\5.3.1\qtbase\include\QtGui /IC:\Qt\5.3.1\qtbase\include\QtXml /IC:\Qt\5.3.1\qtbase\include\QtWidgets /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt display.cpp GeneratedFiles\Release\moc_display.cpp GeneratedFiles\Release\moc_mainwindow.cpp ImageModifier.cpp main.cpp mainwindow.cpp Point.cpp
+         display.cpp
+         moc_display.cpp
+         moc_mainwindow.cpp
+         ImageModifier.cpp
+         main.cpp
+         mainwindow.cpp
+         Point.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\5.3.1\qtbase\include /I.\GeneratedFiles\Release /IC:\Qt\5.3.1\qtbase\include\QtCore /IC:\Qt\5.3.1\qtbase\include\QtGui /IC:\Qt\5.3.1\qtbase\include\QtXml /IC:\Qt\5.3.1\qtbase\include\QtWidgets /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_mainwindow.cpp
+         qrc_mainwindow.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\David\Google Drive\Visual Studio\Street View\Win32\Release\\MainWindow.exe" /NOLOGO /LIBPATH:C:\Qt\5.3.1\qtbase\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Widgets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\David\Google Drive\Visual Studio\Street View\Win32\Release\MainWindow.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\David\Google Drive\Visual Studio\Street View\Win32\Release\MainWindow.lib" /MACHINE:X86 /SAFESEH Release\display.obj
+         Release\qrc_mainwindow.obj
+         Release\moc_display.obj
+         Release\moc_mainwindow.obj
+         Release\ImageModifier.obj
+         Release\main.obj
+         Release\mainwindow.obj
+         Release\Point.obj
+         MainWindow.vcxproj -> C:\Users\David\Google Drive\Visual Studio\Street View\Win32\Release\MainWindow.exe
+     1>Done Building Project "C:\Users\David\Google Drive\Visual Studio\Street View\MainWindow\MainWindow.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.94
